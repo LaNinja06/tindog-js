@@ -1,0 +1,103 @@
+body {
+  max-width: 550px;
+  display: block; 
+  margin: auto;
+  font-family: 'Poppins', sans-serif; 
+}
+
+header {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon-chat, .icon-profile {
+    width: 25px;
+}
+
+.icon-logo {
+    width: 20%;
+}
+
+.dog--avatar {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%);
+    border-radius: 15px;
+}
+
+#card-container {
+  position: relative;
+  margin: 12px 0 10px; 
+}
+
+.dog--info {
+    position: absolute;
+    color: white;
+    bottom: 25px;
+    left: 60px;
+}
+
+.info {
+    margin: 5px 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    color: #F8F8F8;
+}
+
+.bio {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B7B7B7;
+    margin: 0;
+    padding: 0;
+}
+
+.badge-image {
+    width: 40%;
+    position: absolute;
+    left: 14px;
+    top: 40px;
+    transform: rotate(-30deg)
+}
+
+.actions--btns {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+button {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border-radius: 50%;
+    padding: 15px;
+    border-style: none;
+}
+
+#reject-button {
+    margin-right: 25px;
+}
+
+#reject-button:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#accept-button:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.icon-heart, .icon-cross {
+    height: 30px;
+    margin-top: 5px
+}
